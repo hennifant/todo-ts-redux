@@ -7,7 +7,7 @@ Eine einfache To-Do-Liste mit einigen der neuesten Technologien.
 Um dieses Repository zu klonen befolgen Sie folgende Schritte:
 
 ```jsx
-git@github.com:hennifant/todo-ts-redux.git
+git clone git@github.com:hennifant/todo-ts-redux.git
 ```
 
 ```jsx
