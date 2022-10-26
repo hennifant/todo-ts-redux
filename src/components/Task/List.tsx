@@ -31,7 +31,7 @@ function TaskList() {
         switch (tab) {
           case "Todo":
             return !task.complete;
-          case "Abgeschlossen":
+          case "Erledigt":
             return task.complete;
           default:
             return task;
@@ -72,16 +72,16 @@ function TaskList() {
             isActive={tab === "Todo"}
             variant="outline"
           >
-            Im Gange
+            Todo
           </Button>
           <Button
             colorScheme="green"
             size="xs"
-            onClick={() => dispatch(updateTab("Abgeschlossen"))}
-            isActive={tab === "Abgeschlossen"}
+            onClick={() => dispatch(updateTab("Erledigt"))}
+            isActive={tab === "Erledigt"}
             variant="outline"
           >
-            Abgeschlossen
+            Erledigt
           </Button>
           <Button
             colorScheme="blue"
